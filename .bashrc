@@ -1,0 +1,1 @@
+PS1='\e[41m \w \e[44m$(git branch 2>/dev/null | sed -n "s/* \(.*\)/ \1 /p")\e[m '
