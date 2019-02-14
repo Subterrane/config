@@ -1,1 +1,1 @@
-PS1='\e[41m \w \e[44m$(git branch 2>/dev/null | sed -n "s/* \(.*\)/ \1 /p")\e[m '
+PS1='\e[41m $i_oct_file_directory \w \e[44m$(git branch 2>/dev/null | sed -n "s/* \(.*\)/ $i_dev_git_branch \1 /p")\e[m '
